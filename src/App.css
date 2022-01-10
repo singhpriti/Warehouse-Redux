@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home__heading {
+  padding-top: 10%;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+.home__heading p {
+  padding: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.home__heading Button {
+  background-color: rgb(72, 98, 245);
+}
+.add__body h1 {
+  background-image: url("https://images.unsplash.com/photo-1624026676760-53603406ac94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#standard-basic {
+  width: 60vh;
+  padding: 25px;
+}
+.add__bodyTextField {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=712&q=80");
+}
+.home__body,
+.read__body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=712&q=80");
+}
+.read__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.read__buttonUpdate {
+}
+.add__body > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px;
+}
+.add__body > h1 {
+  height: 60vh;
+  text-align: center;
+  padding-top: 500px;
+  font-size: 3.5rem;
+  color: rgb(20, 21, 22);
+}
+.add__body .add__bodyButton {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgb(255, 208, 0) !important;
+}
+.add__button {
+  display: flex;
+  gap: 10px;
+  margin: auto;
+}
+
+.read__table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px;
+  width: 60vh;
+}
+.add__error {
+  color: red;
+  text-align: center;
+  padding-top: 30px;
+  background-image: url("https://images.unsplash.com/photo-1566694271355-9ead56467fd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+}
+.read__buttonUpdate {
+  margin-top: 30px;
+  padding-top: 20px;
+}
